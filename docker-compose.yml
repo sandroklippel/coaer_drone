@@ -1,4 +1,4 @@
-version: '1.0'
+version: '2.1'
 volumes:
   dbdata:
   appmedia:
@@ -54,4 +54,3 @@ services:
       - WO_SECRET_KEY
     restart: unless-stopped
     oom_score_adj: 250
-    
