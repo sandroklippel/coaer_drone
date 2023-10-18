@@ -6,7 +6,7 @@ volumes:
   appmedia:
 services:
   db:
-    image: ghcr.io/sandroklippel/webodm_db
+    image: docker.io/opendronemap/webodm_db
     container_name: db
     expose:
       - "5432"
