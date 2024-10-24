@@ -28,4 +28,4 @@ clean:
 	rm -rf $(TARGET_DIR)
 
 restart:
-    systemctl restart container-webodm.service
+	systemctl restart container-webodm.service
